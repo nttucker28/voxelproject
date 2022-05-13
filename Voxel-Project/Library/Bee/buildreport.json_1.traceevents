@@ -1,0 +1,547 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1652432080256532, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432080258954, "dur": 56844, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432080316177, "dur": 2889137, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432083205333, "dur": 10306, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432168483802, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432168483833, "dur": 22252, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432168506088, "dur": 257994, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432168764085, "dur": 9690, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432176445048, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432176445341, "dur": 3100, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432176448444, "dur": 62719, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432176511216, "dur": 1222391, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432177733610, "dur": 1823852, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432179557465, "dur": 850, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432179559051, "dur": 43, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1652432177492332, "dur": 224449, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177493390, "dur": 63011, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177696027, "dur": 5181, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177701213, "dur": 15557, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177702050, "dur": 13794, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177723821, "dur": 1694, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652432177722527, "dur": 3045, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432179559248, "dur": 551, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1652432177795497, "dur":2097, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432177797601, "dur":73, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652432177797693, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652432177797720, "dur":625, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652432177798422, "dur":778, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432177799200, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544402, "dur":300, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544702, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544718, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544721, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544729, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544731, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544738, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544741, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544747, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544749, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544755, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544757, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544763, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544766, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544771, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544774, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544784, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544791, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179544794, "dur":2936, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652432177798627, "dur":585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177799216, "dur":4947, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177804181, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652432177804183, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177804406, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652432177804411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177811971, "dur":8558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652432177820532, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1652432177820692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177820698, "dur":12733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1652432177833511, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1652432177834347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177834459, "dur":11471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1652432177846079, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1652432177847024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432177847032, "dur":175422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1652432178022537, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1652432178022667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178022992, "dur":74033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1652432178097102, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178097185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178098706, "dur":81878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178180676, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178181040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178181046, "dur":60745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178241848, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178241973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178241978, "dur":31383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178273425, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178273576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178273581, "dur":26391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178300032, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178300181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178300199, "dur":55953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178356217, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178356359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178356365, "dur":67339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178423758, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178423886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178423903, "dur":55214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178479177, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178479374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178479380, "dur":62163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178541725, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178541898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178541906, "dur":92703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178634679, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178634833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178634840, "dur":48452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178683361, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178683527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178683534, "dur":40500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178724100, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178724286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178724290, "dur":50325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178774696, "dur":73341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178848042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178848049, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178850472, "dur":98551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178949028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178949034, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178954111, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432178954284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432178954291, "dur":109234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432179063585, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432179063889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432179063895, "dur":45532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432179109590, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432179109721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652432179109727, "dur":230704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652432179340486, "dur":203895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432177798669, "dur":553, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432177799223, "dur":4950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432177804181, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1652432177804431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432177822916, "dur":24961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1652432177848287, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1652432177848429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432177848435, "dur":173362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1652432178021875, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178022014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178022103, "dur":82572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178104737, "dur":46516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178151261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178151270, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178153790, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178153983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178153991, "dur":48588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178202647, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178202807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178202840, "dur":104704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178307624, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178307766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178307772, "dur":172512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178480391, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178480834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178480840, "dur":18461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178499475, "dur":2142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178501620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178501626, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178504270, "dur":4514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178508788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178508815, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178511042, "dur":66255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178577492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178577501, "dur":11157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178588722, "dur":128468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178717196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178717214, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178720952, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178721100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178721107, "dur":225586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178946770, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432178946897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432178946904, "dur":183067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432179130338, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432179130470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432179130476, "dur":133461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432179263996, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432179264158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652432179264167, "dur":280130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652432179544341, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1652432179544343, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177798712, "dur":524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177799236, "dur":4937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177804181, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1652432177804383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177806115, "dur":10328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1652432177816516, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652432177816692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177816760, "dur":12769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652432177829605, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1652432177829752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177831822, "dur":12121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1652432177844014, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1652432177844203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432177844210, "dur":535528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1652432178379805, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178379943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178379949, "dur":53740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178433771, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178433930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178433935, "dur":42970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178476978, "dur":42917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178519898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178519904, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178522021, "dur":9696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178531723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178531730, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178532970, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178533110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178533115, "dur":83461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178616656, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178616811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178616818, "dur":59037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178675915, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178676058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178676064, "dur":47599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178723727, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178723810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178723816, "dur":45560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178769440, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178769588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178769594, "dur":61712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178831369, "dur":110544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178941918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178941925, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178944211, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432178944348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432178944353, "dur":118035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179062448, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179062586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432179062592, "dur":100792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179163446, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179163599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432179163605, "dur":132947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179296640, "dur":117004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179413650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652432179413657, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652432179415002, "dur":129454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432177798764, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432177799245, "dur":4965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432177804211, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1652432177804383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432177806269, "dur":21057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1652432177827406, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652432177827640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432177827647, "dur":560747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652432178388464, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178388610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178388629, "dur":81898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178470597, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178470800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178470806, "dur":40514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178511388, "dur":2968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178514360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178514367, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178519853, "dur":4244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178524103, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178525725, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178528463, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178529501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178529508, "dur":65785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178595377, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178595544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178595551, "dur":32366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178628044, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178628355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178628362, "dur":42932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178674654, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178674784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178674788, "dur":75865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178750721, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178750859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178750865, "dur":72090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178823325, "dur":119808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178943213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178943220, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178949112, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432178949688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432178949693, "dur":171719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432179121475, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432179121605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652432179121624, "dur":283516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652432179405197, "dur":139264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432177798806, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432177799254, "dur":4917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432177804181, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652432177804464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432177823947, "dur":197877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652432178021899, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178022120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178022124, "dur":154538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178176730, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178176875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178176882, "dur":31428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178208411, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178208571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178208578, "dur":32513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178241156, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178241304, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178241320, "dur":27659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178269036, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178269178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178269184, "dur":78941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178348608, "dur":2096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178350710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178350717, "dur":66727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178417526, "dur":2122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178419654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178419661, "dur":116093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178535864, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178536053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178536059, "dur":77786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178613980, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178614262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178614268, "dur":55488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178669835, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178670222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178670229, "dur":78581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178748872, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178749029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178749035, "dur":37714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178786819, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178787000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178787006, "dur":51787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178838857, "dur":3600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178842493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178842500, "dur":83762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178932363, "dur":5389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432178937756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652432178937763, "dur":435583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652432179373423, "dur":170959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177798854, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177799263, "dur":5020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177804283, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1652432177804429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177814151, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1652432177819011, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652432177819162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177819169, "dur":15095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652432177834736, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652432177834876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177834881, "dur":14140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652432177849091, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432177849236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432177849752, "dur":172464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178022286, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1652432178022384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178022386, "dur":86244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1652432178108736, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178108927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178109052, "dur":42660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178151771, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178152106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178152113, "dur":49176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178201358, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178201547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178201555, "dur":37695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178239474, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178239644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178239650, "dur":31522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178273784, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178273919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178273923, "dur":46801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178321248, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178321408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178321415, "dur":35760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178357232, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178357363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178357368, "dur":127146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178484581, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178484797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178484803, "dur":40178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178525041, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178525181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178525186, "dur":46262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178571523, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178571669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178571675, "dur":51491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178623223, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178623385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178623391, "dur":50405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178674337, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178674524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178674558, "dur":46982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178721608, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178721676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178721680, "dur":44383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178766121, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178766261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178766266, "dur":170920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178940640, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432178940977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432178940984, "dur":95526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432179036593, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432179036811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179036820, "dur":36492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432179073374, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432179073509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179073515, "dur":229872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652432179303449, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1652432179303515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179303610, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1652432179304971, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652432179305034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179305039, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652432179306406, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179306469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179306473, "dur":20558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179327091, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179327144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179327149, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179330592, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652432179330653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179330657, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652432179332462, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179332518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179332522, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1652432179334386, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1652432179334453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179334457, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1652432179335597, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1652432179335673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179335676, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1652432179337060, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1652432179337220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652432179337224, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1652432179338592, "dur":205810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432177798905, "dur":373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432177799278, "dur":4990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432177804271, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1652432177804428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432177812387, "dur":563669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1652432178376126, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178376409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178376416, "dur":81837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178458638, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178458800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178458806, "dur":47714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178506583, "dur":1637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178508225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178508232, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178509550, "dur":102877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178613891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178613900, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178617711, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178617851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178617857, "dur":126359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178744278, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178744469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178744474, "dur":53391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178797932, "dur":63895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178861833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432178861841, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432178864069, "dur":274313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179138388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432179138396, "dur":5068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179143521, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179143667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432179143673, "dur":136142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179279874, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179279993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652432179279998, "dur":205975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652432179486032, "dur":58373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432177798959, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432177799288, "dur":4973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432177804266, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652432177804509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432177830644, "dur":12653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652432177843396, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652432177843621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432177843630, "dur":178215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652432178021915, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1652432178022050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178022053, "dur":103339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1652432178125469, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178125622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178125629, "dur":34220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178159910, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178160071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178160077, "dur":48574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178208713, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178208851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178208856, "dur":38036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178246960, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178247113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178247119, "dur":66330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178313514, "dur":176947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178490464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178490479, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178493303, "dur":4924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178498232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178498240, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178501629, "dur":92155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178593789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178593796, "dur":9008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178604377, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178604585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178604591, "dur":45475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178650142, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178650302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178650308, "dur":75506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178725876, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178726114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178726119, "dur":185822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178912017, "dur":4368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178916391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178916411, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178917961, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432178918089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432178918094, "dur":108841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179026997, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179027162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179027167, "dur":94307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179121545, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179121723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179121727, "dur":72258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179194056, "dur":42670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179236731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179236737, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179239944, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179240061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179240066, "dur":79271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652432179319410, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179319477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179319482, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179321112, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1652432179321172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179321177, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1652432179323023, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179323080, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179323091, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179324786, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1652432179324937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179324941, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1652432179326927, "dur":1963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1652432179328895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179328901, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1652432179330781, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1652432179330844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179330848, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1652432179332728, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1652432179332790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179332793, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1652432179335290, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Voxel-Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179335360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652432179335365, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Voxel-Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1652432179339730, "dur":204658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652432179550578, "dur":2197, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1652432179559960, "dur": 1345, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652432179559037, "dur": 2297, "ph": "X", "name": "Write chrome-trace events", "args": {} },
